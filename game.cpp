@@ -263,6 +263,10 @@ void start()
 	case '4':
 		quit();
 		break;
+	default:
+		cout << "Podaj imie:";
+		cin >> sName;
+		game();
 	}
 }
 
@@ -612,7 +616,7 @@ void game() {
 
 void quit(){
 	system("cls");
-	cout << "Goodbye";
+	cout << "G O O D B Y E ! ! !" << endl;
 	system("pause");
 }
 
